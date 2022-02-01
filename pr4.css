@@ -1,0 +1,43 @@
+
+
+body{
+    display: flex;
+    margin-top: 22vh;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+}
+h1{
+    font-size:5rem;
+}
+.number{
+ font-size: 4rem;
+ display: inline-block;
+ position: relative;
+ margin-top: -10vh;
+}
+.container2{
+    word-spacing: 1rem;
+    padding: 20px;
+}
+.btn{
+    font-size: xx-large;
+    border-radius: 3rem;
+}
+#btns1:hover {
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+
+}
+#btns2:hover{
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
+#btns3:hover{
+    background-color: red;
+    color: white;
+    cursor: pointer;
+
+}
