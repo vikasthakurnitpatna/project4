@@ -4,7 +4,7 @@ const btns=document.querySelectorAll(".btn");
 btns.forEach(function(btn){
     btn.addEventListener("click",function(e){
         let classlists = e.currentTarget.classList
-        if(classlists.contains("decrease")){
+       {if(classlists.contains("decrease")){
               count--;
             }
         else if(classlists.contains("increase")){
@@ -13,7 +13,17 @@ btns.forEach(function(btn){
         else{
             count=0;
         }
-            mn.textContent=count;
-    
+    }
+       { if(count>0){
+            mn.style.color="blue"
+        }
+        else if(count<0){
+            mn.style.color="red"
+        }
+        else{
+            mn.style.color="green"
+        }
+    }
+    mn.textContent=count;
     })
 })

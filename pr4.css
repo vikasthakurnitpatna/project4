@@ -25,10 +25,10 @@ h1{
     border-radius: 3rem;
 }
 #btns1:hover {
-    background-color: blue;
+    background-color: red;
     color: white;
     cursor: pointer;
-
+    
 }
 #btns2:hover{
     background-color: green;
@@ -36,7 +36,7 @@ h1{
     cursor: pointer;
 }
 #btns3:hover{
-    background-color: red;
+    background-color: blue;
     color: white;
     cursor: pointer;
 
